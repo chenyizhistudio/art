@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chen Yizhi's Personal Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            background-color: #8A2BE2;
+            color: #c8ff00;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8A2BE2;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 50px 0;
+        }
+        .section:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .intro {
+            text-align: center;
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chen Yizhi</h1>
+</header>
+
+<nav>
+    <a href="#about">Artist</a>
+    <a href="#portfolio">Portfolio</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="section">
+        <h2>Artist</h2>
+        <p class="intro">Yizhi Chen, born in 1993, currently lives and works in Guangzhou, who is a young artist active in the field of contemporary art. She graduated from the Oil Painting Department of Guangzhou Academy of Fine Arts in 2016 with a bachelor's degree. She obtained a master's degree from the Oil Painting Department of Guangzhou Academy of Fine Arts in 2019. She won a series of Art Prize, such as the Inter-youth International Youth Painting Exhibition Creation Award in 2018, the winner of Luo Zhongli Scholarship in 2019, Top100 Artist of NEW STAR ART FESTIVAL, the emerging artists of The Signature Art Prize, etc. she has participated in a number of national and international art exhibitions and residence, and she was sponsored by HE Art Foundation and become a contracted artist of TITAN Art Museum and Lingnan Institute of Art. Her works includes painting, video, installation, performance art, which often break the conventions of visual viewing, triggering viewers to enter the order established by the works - the narrative logic of the micro-painting and the macro-form composition of the reversal film in the viewing conflict, and also during this process the passiveness and initiative of viewing will become the order that the artist tries to construct, showing the richness and hierarchy of the works. </p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="Artwork1.jpg" alt="Artwork 1">
+            <img src="Artwork2.jpg" alt="Artwork 2">
+            <img src="Artwork3.jpg" alt="Artwork 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Chen Yizhi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
